@@ -15,6 +15,7 @@
   height: 100%;
   background-color: #f1f1f1;
   opacity: 0.7;
+  overflow:auto;
 }
 .navBarFixed ul{
   visibility: visible;
@@ -28,6 +29,7 @@
   height: 100%;
   background-color: #f1f1f1;
   opacity: 0.5;
+  overflow:auto;
 }
 #barIcon{
   position: fixed;
@@ -136,6 +138,7 @@ body{
   height: 100%;
   background-color: #f1f1f1;
   opacity: 0.9;
+	 overflow:auto;
 }
 #bar{
   transform: translateX(-150%);
@@ -156,6 +159,7 @@ body{
   height: 100%;
   background-color: #f1f1f1;
   opacity: 0.7;
+	 overflow:auto;
 }
 a{
   font-weight: bold;
