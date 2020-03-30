@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>22-02-2020</title>
+	<link rel="stylesheet" type="text/css" href="css/5.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="https://kit.fontawesome.com/f237423253.js" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="javascript/js.js"></script>
+</head>
+<body>
+     <div id="image-contain">
+		<div class="image">
+			<a href="#1" onclick=showFSIMG()><img src="https://lh3.googleusercontent.com/pylANI5pVpzXl1Ml-0eBt6c-m3RW-65r5o2M6WRDKqwdwty3rFZiX5sEM-xbs47WeqptbeZ5B9yccrAiLJ5G0FWICGrgPx8Dr6xXx7NJCPMsfFuut6-VVgc8VHtOCmU_zo-e7xys5g=w1920-h1080" alt="img1"></a>
+			<a href="#2" onclick=showFSIMG()><img src="https://lh3.googleusercontent.com/63Dix9MaJ-bsPFOqPi_xQjhPGD3V6E7SFeetxdMNKq4jMODTAkt29KvbF6mR-cSAy3lMV3Tjr-d0yaNU0Ub57moHR7iCSRGHkYf5T60fZ9T8PoBJZpnlTUmBkafr3KpZHZwtBP2kug=w1920-h1080" alt="img2"></a>
+			<a href="#3" onclick=showFSIMG()><img src="https://lh3.googleusercontent.com/0w6IUpKiiX18ejpFoi4nvt4d020Hbz-de0tdVdhm0LGy3l4vZQ3mMVLmQsXQhTEm2ihMdp2qNkvd1g1PKjlEc2KQl-K3nEiETyZUydUlSkdeWkq2uhckLfLuXSYACOeOs91gyhB8Pg=w1920-h1080" alt="img3"></a>
+			<a href="#4" onclick=showFSIMG()><img src="https://lh3.googleusercontent.com/1nc_2Yq7ZAyg_aV8Ed48E-f5hbN0ftOINwHLZfUY_bdhWq0SxmuAV6Xja4K6bh6Gn9bvg3ptcfmT7-GQv9Yk-6_Tk25D4LSf7XZQy0CLiOnROYcWz_q97iDj9nZe5cFmUBzMOdEkIw=w1920-h1080" alt="img4"></a>
+			<a href="#5" onclick=showFSIMG()><img src="https://lh3.googleusercontent.com/B9oMKJGs6FgKvuJYu8NlhlASsrUdQW5PhMssv9-PjHgcnD0vB0pBCHvhbl3nRx0wB3-KZpYIhMQ7Hld8ECkw8UL5daTEvxgfvzWdTk4Gq7PAC-zkQJjIS3c_P3DHVDNxBFTlcOLvzA=w1920-h1080" alt="img5"></a>
+			<a href="#6" onclick=showFSIMG()><img src="https://lh3.googleusercontent.com/c_Mt3Q6KyA4UTZy7Nk0fwMycsbB3aEzaP_dae2m5miP3wKfuYcnUdXDe2l8noG_givni04PpWRYKAq2r7MPNhY_f9tDtStDWLxutsQW8wc2N3_hDigdMXpwaE7NeIaKqyb54Kq7pRw=w1920-h1080" alt="img6"></a>
+			<a href="#7" onclick=showFSIMG()><img src="https://lh3.googleusercontent.com/0nB-3YiO-dXbQQde14G-IS14JtQRcgqDVJuZpqGF3oQIGuPRa3b3pUorY4V6LMfpYPJzAl60Gvk_Sg0jbxP7QIT56_J3LF7qpjdFNaZNdyLKAJOPdEhSULXjkPjGO4W8YDyuvL3PbQ=w1920-h1080" alt="img7"></a>
+			<a href="#8" onclick=showFSIMG()><img src="https://lh3.googleusercontent.com/4D0QRSnSUObECd1KAVfuzBC8mkynxnW38nIanwnVnXvKsC8lsJ6fhEjzyU0j3R5Mx8a9Wn6kM-o-89uBXYWpAoqJoja6EG5LnmV1Dnj6sGZICLySoH8bw0gWB_PM4Rgu_F5bbWsapw=w1920-h1080" alt="img8"></a>
+			<a href="#9" onclick=showFSIMG()><img src="https://lh3.googleusercontent.com/kaGfJu9mtGTN3Tl0BuNNg8lH5ueDBffJ41ZlmMJUIhS9fntb8ww4iKePlOPoA78aMfTqO9gRsXyijgaFN--tk1mPmwJMRUyr1k6jxR2HzM36mTzEkrK4aqWblxS7TQ50fg_7_6XtGA=w1920-h1080" alt="img9"></a>
+		</div>
+	</div>
+	<div id="fullsizeIMG" style="display: none;">
+		    <img id="1" src="https://lh3.googleusercontent.com/pylANI5pVpzXl1Ml-0eBt6c-m3RW-65r5o2M6WRDKqwdwty3rFZiX5sEM-xbs47WeqptbeZ5B9yccrAiLJ5G0FWICGrgPx8Dr6xXx7NJCPMsfFuut6-VVgc8VHtOCmU_zo-e7xys5g=w1920-h1080" alt="img1">
+			<img id="2" src="https://lh3.googleusercontent.com/63Dix9MaJ-bsPFOqPi_xQjhPGD3V6E7SFeetxdMNKq4jMODTAkt29KvbF6mR-cSAy3lMV3Tjr-d0yaNU0Ub57moHR7iCSRGHkYf5T60fZ9T8PoBJZpnlTUmBkafr3KpZHZwtBP2kug=w1920-h1080" alt="img2">
+			<img id="3" src="https://lh3.googleusercontent.com/0w6IUpKiiX18ejpFoi4nvt4d020Hbz-de0tdVdhm0LGy3l4vZQ3mMVLmQsXQhTEm2ihMdp2qNkvd1g1PKjlEc2KQl-K3nEiETyZUydUlSkdeWkq2uhckLfLuXSYACOeOs91gyhB8Pg=w1920-h1080" alt="img3">
+			<img id="4" src="https://lh3.googleusercontent.com/1nc_2Yq7ZAyg_aV8Ed48E-f5hbN0ftOINwHLZfUY_bdhWq0SxmuAV6Xja4K6bh6Gn9bvg3ptcfmT7-GQv9Yk-6_Tk25D4LSf7XZQy0CLiOnROYcWz_q97iDj9nZe5cFmUBzMOdEkIw=w1920-h1080" alt="img4">
+			<img id="5" src="https://lh3.googleusercontent.com/B9oMKJGs6FgKvuJYu8NlhlASsrUdQW5PhMssv9-PjHgcnD0vB0pBCHvhbl3nRx0wB3-KZpYIhMQ7Hld8ECkw8UL5daTEvxgfvzWdTk4Gq7PAC-zkQJjIS3c_P3DHVDNxBFTlcOLvzA=w1920-h1080" alt="img5">
+			<img id="6" src="https://lh3.googleusercontent.com/c_Mt3Q6KyA4UTZy7Nk0fwMycsbB3aEzaP_dae2m5miP3wKfuYcnUdXDe2l8noG_givni04PpWRYKAq2r7MPNhY_f9tDtStDWLxutsQW8wc2N3_hDigdMXpwaE7NeIaKqyb54Kq7pRw=w1920-h1080" alt="img6">
+			<img id="7" src="https://lh3.googleusercontent.com/0nB-3YiO-dXbQQde14G-IS14JtQRcgqDVJuZpqGF3oQIGuPRa3b3pUorY4V6LMfpYPJzAl60Gvk_Sg0jbxP7QIT56_J3LF7qpjdFNaZNdyLKAJOPdEhSULXjkPjGO4W8YDyuvL3PbQ=w1920-h1080" alt="img7">
+			<img id="8" src="https://lh3.googleusercontent.com/4D0QRSnSUObECd1KAVfuzBC8mkynxnW38nIanwnVnXvKsC8lsJ6fhEjzyU0j3R5Mx8a9Wn6kM-o-89uBXYWpAoqJoja6EG5LnmV1Dnj6sGZICLySoH8bw0gWB_PM4Rgu_F5bbWsapw=w1920-h1080" alt="img8">
+			<img id="9" src="https://lh3.googleusercontent.com/kaGfJu9mtGTN3Tl0BuNNg8lH5ueDBffJ41ZlmMJUIhS9fntb8ww4iKePlOPoA78aMfTqO9gRsXyijgaFN--tk1mPmwJMRUyr1k6jxR2HzM36mTzEkrK4aqWblxS7TQ50fg_7_6XtGA=w1920-h1080" alt="img9">
+	</div>
+	    <i id="nextbutton"class="fas fa-arrow-circle-right" style="position: fixed; right: 2%; top: 50%; display: none;opacity: 0.4; font-size: 300%;"></i>
+        <i id="prevbutton" style="position: fixed; left: 2%; top: 50%; display: none;opacity: 0.4; font-size: 300%;"class="fas fa-arrow-circle-left"></i>
+        <div id="nextIMG" onclick=nextIMG() onmouseover=rotate('nextbutton') onmouseout=unRotate('nextbutton') style="width: 48vw;height: 90vh;right: 0px; bottom: 0px; background: #000000; opacity: 0.0; position: fixed; display: none;"></div>
+         <div id="prevIMG" onclick=prevIMG() onmouseover=rotate('prevbutton') onmouseout=unRotate('prevbutton') style="width: 48vw;height: 90vh;left: 0px; bottom: 0px; background: #000000; opacity: 0.0; position: fixed; display: none;"></div>      
+        <i id="closeIMG" onclick=closeFSIMG() style="position: fixed; right: 2%;top: 6%; display: none;opacity: 0.4;font-size: 300%;" class="fas fa-times-circle"></i>
+        <nav class="navBar">
+           <div id="bar">
+	          <ul>
+		<li><a href="1.html"><h1>Home</h1></a></li>
+		<li><a href="2.html"><h1>Bửu Long Day</h1></a></li>
+		<li><a href="3.html"><h1>Valentine Day</h1></a></li>
+		<li><a href="4.html"><h1>Long Xuyên Day</h1></a></li>
+		<li><a id="visited" href="5.html"><h1>Nhà Trinh Day</h1></a></li>
+		<li><a  href="6.html"><h1>Nam Phương Linh Tự Day</h1></a></li>
+	          </ul>
+            </div>    
+         </nav>
+         <nav>
+        	<div id="barIcon">
+        		<ul>
+        			<li id="test"><i id="buttonCtrl" class="fas fa-bars" onclick=menuCtrl()></i></li>
+        			<li><i class="fab fa-facebook-square" onclick=FB()></i></li>
+        			<li><i class="fas fa-envelope" onclick=gmail()></i></li>
+        			<li><i class="fas fa-phone-square" onclick=phoneNumber()></i></li>
+        		</ul>
+        	</div>
+        </nav>
+    <nav class="navBarFixed">
+    	  <div id="barFixed">
+	<ul>
+		<li><a href="1.html"><h1>Home</h1></a></li>
+		<li><a href="2.html"><h1>Bửu Long Day</h1></a></li>
+		<li><a href="3.html"><h1>Valentine Day</h1></a></li>
+		<li><a href="4.html"><h1>Long Xuyên Day</h1></a></li>
+		<li><a id="visited" href="5.html"><h1>Nhà Trinh Day</h1></a></li>
+		<li><a href="6.html"><h1>Nam Phương Linh Tự Day</h1></a></li>
+	</ul>
+</div>
+    </nav>
+    <audio controls autoplay loop style="height: 5vh; width: 40vw; position: fixed; top: 0px; right: 0px; opacity: 0.5">
+      	<source src="music/NemTronTungKhoanhKhac.mp3" type="audio/mpeg">      
+      </audio>
+</body>
+
+

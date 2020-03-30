@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>HOME</title>
+	<link rel="stylesheet" type="text/css" href="css/1.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="https://kit.fontawesome.com/f237423253.js" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="javascript/js.js"></script>
+	<script type="text/javascript">
+		function changeImgBG(id){
+            	document.getElementById('imgBGHome').style.visibility='hidden';
+            	document.getElementById(id).style.visibility='visible';
+		}
+		function setDefaultImgBG(id){
+               document.getElementById(id).style.visibility='hidden';
+               document.getElementById('imgBGHome').style.visibility='visible';
+		}
+		function transform(trans,id,number){
+			document.getElementById(id).style.transform=trans+"("+number+")";
+		}
+		function untransform(trans,id,unit){
+		document.getElementById(id).style.transform=trans+"(0"+unit+")";
+	    }
+	    function FB(){
+          window.location.href = 'https://www.facebook.com/timberlakedat.do';
+        }
+        function gmail(){
+          alert("DatDTSE140920@fpt.edu.vn");
+        }
+        function phoneNumber(){
+          alert("0377322919");
+        }
+	</script>
+	
+</head>
+<body>
+	
+	<div class="background">
+		<img id="imgBGHome"style="visibility:visible;" src="https://lh3.googleusercontent.com/Ewiof8wb3euTMqPkHgVj7qpI3jgVXBbqQe_nmY9FbxND73A56DKqdrm0-gpbNu5A-bumyZwbRZhqaOm52N_oZrFakKnTENhLUFVset0JO2DO8Jo4p1S219-cJKBLHGMB-InUa4nMAwcT1qWPbFjmdx6TDQhoIk03ieU5sInAv3fyxy2DLLSCdiJS3SeHHMLXCeb7rZgF1tQjobnq2HmPfdiXY-MsVabvVvXJjPEv1HsnnZiHVRV4hFGSDW2oAxHV0xZ63nmMrC8gVJPUX7Z18m55NYAajCMR5wQyjMkPcbky3M8pzDMwndY9z9hsC_5LgQwjs_ceW_kFr74e9tnmp8X-t2OWatWzpuU12u9Iok5qlmLa1Z8NgJ0seV4gJjlSsmTunbFrg1w7ZHXaAI4PpE8YnMCl78NJsYeuTtl2rSz47NO-WtReV8_5s1w7JncNnfD3R0nTQePpjZjC9cfnXS5gobg3D7qYX9sCkqTUDtG9nwdvHrE297mqZEBwsDhekcaahcGFwHJxN9ZXVyY5Woe9sHXhFhEMoID3meY_rpZGgns8JI9omgbMGlgHZJ4rEeDXnrS6fP6TV5dVwmtqafbShn6SFT9IbaM7xgzUp5i2dgbNOCdKBqBwinQ86SOBV48izCrYtMvmGwyf-VrHW0F3csO23_E9eqg9A4aFAAouzCmAhuxeFC2RH-kW3AJwIiOP_93AMR8pCAx8lkmgaHWG4EZG36-rycRjnyyeCzWuO3hAutX1Z20=w960-h721-no" alt="GIF">	
+		<img id="imgBGBuulong" style="visibility:hidden;"src="https://lh3.googleusercontent.com/I-GnYw-5GKzqjujYZH5OX-_yfFhoKW7xN-wlsXM2nnQEcATvWQWopfxazy-mvvO4K_oh1N776X_bAPBEigwkHgZ5TJI3-_WXkNYIAucakr6tXwCPgqtnpmnmgY4rP_O7NhSBDdN33g=w1920-h1080" alt="buulong">
+		<img id="imgBGValentine" style="visibility:hidden;" src="https://lh3.googleusercontent.com/9dLd9G-5e974OdSy0SDMJkbew1h8JFZ2QG72I5fsvRf9vfCT_twW2GIUBx6x1N71QnxzQzCyPQTIhnKv-8xxtdQTKUodkusrGu2f5bWEBGXJFmShZg5TKbErBSXMKJbwkRGoCUBMlg=w1920-h1080" alt="valentine">
+		<img id="imgBGLongxuyen" style="visibility:hidden;"src="https://lh3.googleusercontent.com/-zY4cSHNYPDJFFzEmsBIIPBczSKGvuA3RhCbuyBNK6iVhWKNjKfBm-pR-Y6DVmlX_5jCX0ZdXrARZoV78Y00_Q98_fAlDj5mlWPTgBo-MilVFY1sTLVegQ233aH4RTJZg0LaGEnNgA=w1920-h1080" alt="longxuyen">
+		<img id="imgBGTrinh" style="visibility:hidden;"src="https://lh3.googleusercontent.com/eowFuPv01PeMZhNeaeDHPQ-zkrwh3la5TzoMI56zt8Wu42ZZNF2Hy_ezJvkYFhzMNlqGwwWm1vpEC79Om0bNz8pAVZ3kAqW2ETfWZnHmSMjqQ4uXmqhx4Xpg6j1AY_SAmaRRbEsz8w=w1920-h1080" alt="trinh">
+		<img id="imgBGNPLT" style="visibility:hidden;"src="https://lh3.googleusercontent.com/u2mpOczfQrJ2NAPBR6j05_NDue9mRAqj4gXOxSzpgtIv8Roft3JAYT80RfEWAdNSndknAwSKmuaS3GZ8UddRiQtG07NnGqnvbiYGhisEqU-uWTQUDDrxOMqNST3NbdkQc6Bm6vAniA=w1920-h1080" alt="nam phuong linh tu">
+		
+	</div>
+	<nav class="navBar">
+           <div id="bar">
+	          <ul>
+		<li><a id="visited" href="1.html"><h1>Home</h1></a></li>
+		<li><a id="1" onmouseover=changeImgBG('imgBGBuulong') onmouseout=setDefaultImgBG('imgBGBuulong') href="2.html"><h1>Bửu Long Day</h1></a></li>
+		<li><a id="2" onmouseover=changeImgBG('imgBGValentine') onmouseout=setDefaultImgBG('imgBGValentine') href="3.html"><h1>Valentine Day</h1></a></li>
+		<li><a id="3" onmouseover=changeImgBG('imgBGLongxuyen') onmouseout=setDefaultImgBG('imgBGLongxuyen') href="4.html"><h1>Long Xuyên Day</h1></a></li>
+		<li><a id="4" onmouseover=changeImgBG('imgBGTrinh') onmouseout=setDefaultImgBG('imgBGTrinh') href="5.html"><h1>Nhà Trinh Day</h1></a></li>
+		<li><a id="5" onmouseover=changeImgBG('imgBGNPLT') onmouseout=setDefaultImgBG('imgBGNPLT') href="6.html"><h1>Nam Phương Linh Tự Day</h1></a></li>
+	</ul>
+            </div>    
+    </nav>
+         <nav>
+        	<div id="barIcon">
+        		<ul>
+        			<li id="test"><i id="buttonCtrl" class="fas fa-bars" onclick=menuCtrl()></i></li>
+        			<li><i class="fab fa-facebook-square" onclick=FB()></i></li>
+        			<li><i class="fas fa-envelope" onclick=gmail()></i></li>
+        			<li><i class="fas fa-phone-square" onclick=phoneNumber()></i></li>
+        		</ul>
+        	</div>
+        </nav>
+    <nav class="navBarFixed">
+    	  <div id="barFixed">
+	<ul>
+		<li><a id="visited" href="1.html"><h1>Home</h1></a></li>
+		<li><a id="1" onmouseover=changeImgBG('imgBGBuulong') onmouseout=setDefaultImgBG('imgBGBuulong') href="2.html"><h1>Bửu Long Day</h1></a></li>
+		<li><a id="2" onmouseover=changeImgBG('imgBGValentine') onmouseout=setDefaultImgBG('imgBGValentine') href="3.html"><h1>Valentine Day</h1></a></li>
+		<li><a id="3" onmouseover=changeImgBG('imgBGLongxuyen') onmouseout=setDefaultImgBG('imgBGLongxuyen') href="4.html"><h1>Long Xuyên Day</h1></a></li>
+		<li><a id="4" onmouseover=changeImgBG('imgBGTrinh') onmouseout=setDefaultImgBG('imgBGTrinh') href="5.html"><h1>Nhà Trinh Day</h1></a></li>
+		<li><a id="5" onmouseover=changeImgBG('imgBGNPLT') onmouseout=setDefaultImgBG('imgBGNPLT') href="6.html"><h1>Nam Phương Linh Tự Day</h1></a></li>
+	</ul>
+</div>
+    </nav>
+      <audio controls autoplay loop style="height: 5vh; width: 40vw; position: fixed; top: 0px; right: 0px; opacity: 0.5">
+      	<source src="music/BaiCaTuoiTre.mp3" type="audio/mpeg">      
+      </audio>
+
+</body>
+
